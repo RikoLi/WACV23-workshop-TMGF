@@ -38,6 +38,8 @@ CUDA_VISIBLE_DEVICES=0 ./train.sh # run on GPU 0
 
 We use `yacs` config system for better parameter management. You may need to modify the dataset root directory `DATASET.ROOT_DIR` and the pretrained weight path `MODEL.PRETRAIN_PATH`. Check [here](https://github.com/rbgirshick/yacs) to learn how to change configs as you like.
 
+> 2023/8/18: We fix a typo of `nn.DataParallel` misusage in [prepare_model.py](https://github.com/RikoLi/WACV23-workshop-TMGF/blob/main/libs/utils/prepare_model.py), which may cause some bugs in forwarding.
+
 
 ### Evaluation
 
