@@ -22,5 +22,4 @@ def create_vit_model(cfg):
                           granularities=cfg.MODEL.GRANULARITIES, branch=cfg.MODEL.BRANCH, has_early_feature=cfg.MODEL.HAS_EARLY_FEATURE,
                           enable_early_norm=cfg.MODEL.ENABLE_EARLY_NORM)
     model.cuda()
-    model = nn.DataParallel(model)
     return model
