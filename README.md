@@ -2,6 +2,10 @@
 
 <!-- The code will be available soon. -->
 
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/transformer-based-multi-grained-features-for/unsupervised-person-re-identification-on-12)](https://paperswithcode.com/sota/unsupervised-person-re-identification-on-12?p=transformer-based-multi-grained-features-for) \
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/transformer-based-multi-grained-features-for/unsupervised-person-re-identification-on-5)](https://paperswithcode.com/sota/unsupervised-person-re-identification-on-5?p=transformer-based-multi-grained-features-for) \
+[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/transformer-based-multi-grained-features-for/unsupervised-person-re-identification-on-4)](https://paperswithcode.com/sota/unsupervised-person-re-identification-on-4?p=transformer-based-multi-grained-features-for)
+
 Official implementation of paper [Transformer-Based Multi-Grained Features for Unsupervised Person Re-Identification](https://openaccess.thecvf.com/content/WACV2023W/RWS/html/Li_Transformer_Based_Multi-Grained_Features_for_Unsupervised_Person_Re-Identification_WACVW_2023_paper.html) (WACV2023 workshop).
 
 In this work, a dual-branch network based upon ViT is build to generate different granularities of part features from local tokens, learning together with global features for better discriminating capacity. Extensive experiments on three person Re-ID datasets are conducted and show that the proposed method achieves the state-of-the-art performance in unsupervised methods.
